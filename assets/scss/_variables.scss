@@ -1,0 +1,106 @@
+//
+// Colors
+// ============================
+$brand-primary: #00D6DD; // SB-Blue!
+$brand-secondary: #FFEC00; // Bright as day yellow
+$brand-info: #FE6E52; // Orangey
+
+$gray-darker: #1b2126;
+$gray-dark: #667580;
+$gray: #98a7b2;
+$gray-light: #d7dbde;
+$gray-lighter: #ebeef0;
+$gray-lightest: #f2f2f2;
+//
+// Typography
+// ============================
+$icon-font-path: "../bootstrap/fonts/bootstrap/";
+$fa-font-path: "../font-awesome/fonts";
+
+$font-family-sans-serif: Open Sans, sans-serif;
+
+$text-color: $gray-darker;
+$link-color: $brand-info;
+//
+// $font-size-base: 17px;
+// $font-size-xs: 14px;
+// $font-size-sm: 16px;
+// $font-size-lg: 23px;
+//
+// $font-size-base-mobile: 15px;
+// $font-size-xs-mobile: 11px;
+// $font-size-sm-mobile: 14px;
+// $font-size-lg-mobile: 16px;
+//
+// $font-size-h1: 45px;
+// $font-size-h2: 27px;
+// $font-size-h3: 23px;
+// $font-size-h4: 17px;
+// $font-size-h5: 16px;
+//
+// $font-size-h1-mobile: 24px;
+// $font-size-h2-mobile: 18px;
+// $font-size-h3-mobile: 16px;
+// $font-size-h4-mobile: 14px;
+// $font-size-h5-mobile: 14px;
+//
+// $font-size-title-one: 32px;
+// $font-size-title-two: 16px;
+// $font-size-title-three: 13px;
+//
+// $font-size-title-one-mobile: 20px;
+// $font-size-title-two-mobile: 14px;
+// $font-size-title-three-mobile: 11px;
+//
+// $headings-font-weight: 700;
+//
+// $line-height-base: 1.764705882;
+// $headings-line-height: 1.3;
+// $line-height-lead: 1.74;
+// $line-height-tagline: 1.3;
+// $line-height-text-sm: 1.875;
+// $line-height-text-xs: 2.14;
+// $line-height-title-one: 1.25;
+// $line-height-title-two: 1.56;
+// $line-height-title-three: 1.54;
+//
+// $line-height-base-mobile: 1.66667;
+// $line-height-tagline-mobile: 1.25;
+// $line-height-text-sm-mobile: 1.429;
+// $line-height-text-xs-mobile: 1.818;
+// $line-height-title-one-mobile: 1.5;
+// $line-height-title-two-mobile: 1.42;
+// $line-height-title-three-mobile: 1.818;
+
+
+//
+// Navbar
+// ============================
+$navbar-inverse-bg: $brand-primary;
+$navbar-inverse-border: $navbar-inverse-bg;
+$navbar-border-radius: 0;
+
+//
+// Forms
+// ============================
+$input-border: white;
+
+$font-size-btn: 13px;
+
+$btn-default-color: white;
+$btn-default-bg: $gray-darker;
+$btn-primary-bg: $brand-secondary;
+
+//
+// Layout
+// ============================
+$grid-gutter-width: 30px;
+$container-large-desktop: (1170px + $grid-gutter-width);
+
+$screen-md: 992px;
+$grid-float-breakpoint: $screen-md;
+
+//
+// Miscellaneous
+// ============================
+$default-border: 1px solid $gray-light;

@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,300,600);
+
+blockquote {
+  position: relative;
+  color: $gray-dark;
+  font-weight: 300;
+  font-style: italic;
+  padding: 0 0 0 85px;
+  border: none; // override parent theme
+
+  .attribution {
+    display: block;
+    color: $gray;
+    margin-top: 5px;
+
+    &:before {
+      content: "\2014";
+      margin-right: 2px;
+    }
+  }
+
+  &:before {
+    content: "\201D";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    color: $gray-light;
+    font-size: 78px;
+    font-style: normal;
+    line-height: 1;
+    padding: 8px 14px;
+    border: 3px solid $gray-lighter;
+    border-radius: 50%;
+  }
+}
+
+ol li, ul li {
+  margin-bottom: $font-size-base/2;
+}
+
+// Use numbers without decimal points on browsers that support it
+ol {
+  list-style-type: none;
+
+  > li {
+    counter-increment: customlistcounter;
+    position: relative;
+
+    &:before {
+      content: counter(customlistcounter) " ";
+      position: absolute;
+      left: -45px;
+      width: 30px;
+      text-align: right;
+    }
+  }
+
+  &:first-child {
+    counter-reset: customlistcounter;
+  }
+}
+
+figure {
+  display: table;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  color: $gray;
+  font-style: italic;
+  padding: 0 5px;
+}
+
+table {
+  &:not(.table-simple) tr:nth-child(even) td {
+    background: $gray-lighter;
+  }
+
+  &.table-simple {
+    th {
+      background: $gray-lighter;
+    }
+
+    td {
+      border-bottom: $default-border;
+    }
+  }
+
+  tr {
+    &:first-child {
+      border-top: $default-border;
+    }
+
+    &:last-child {
+      border-bottom: $default-border;
+    }
+  }
+
+  th, td {
+    text-align: center;
+    padding: 5px;
+  }
+
+  th {
+    border: $default-border;
+  }
+
+  td {
+    color: $gray-dark;
+    border-left: $default-border;
+    border-right: $default-border;
+  }
+}

@@ -1,5 +1,42 @@
 name = CLIENT_NAME
-description = "A theme for CLIENT_NAME"
+description = "A bootstrap 3 based responsive theme for  CLIENT_NAME"
 core = 7.x
 
-stylesheets[all][] = css/style.css
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navbar] = Navigation
+regions[banner] = Banner
+regions[highlighted] = Highlighted
+regions[promoted] = Promoted
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[bottom_content] = Bottom Content
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+regions[footer_third] = Footer Third
+regions[subfooter] = Subfooter
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+stylesheets[all][] = css/CLIENT_NAME.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/affix.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/alert.js'
+scripts[] = 'assets/bootstrap/javascripts/bootstrap/button.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/carousel.js'
+scripts[] = 'assets/bootstrap/javascripts/bootstrap/collapse.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/dropdown.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/modal.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/tooltip.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/popover.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/scrollspy.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/tab.js'
+; scripts[] = 'assets/bootstrap/javascripts/bootstrap/transition.js'
